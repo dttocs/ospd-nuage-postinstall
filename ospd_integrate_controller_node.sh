@@ -90,7 +90,7 @@ systemctl disable neutron-openvswitch-agent.service
 systemctl disable neutron-netns-cleanup.service
 systemctl disable neutron-ovs-cleanup.service
 
-yum remove openvswitch openstack-neutron-lbaas openstack-neutron-ml2 openstack-neutron-openvswitch python-openvswitch -y
+yum remove openstack-neutron-lbaas openstack-neutron-ml2 openstack-neutron-openvswitch -y
 
 #########################
 #OpenStack Configuration#
